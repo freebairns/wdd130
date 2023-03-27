@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color: #070743;
+    --secondary-color: #d1e518;
+    --accent1-color: #d3d5d1eb;
+    --accent2-color: #e59b11;
+  
+    --heading-font: sans-serif, serif;
+    --paragraph-font: monospace, serif;
+  
+    --nav-background-color: #0627acf5;
+    --nav-link-color: #f6f5f1;
+    --nav-hover-link-color: #0d0d7f;
+    --nav-hover-background-color: #306a69;
+}
+
+body {
+    font-family: VAR(--paragraph-font); 
+    max-width: 960 px;
+    padding: 40 px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+  
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--accent1-color); 
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  footer {
+    margin-top: 1em;
+    border-top: 1px solid #1a1111;
+    text-align: center;
+  }

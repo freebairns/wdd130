@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color: #3125da;
+    --secondary-color: #d1e518;
+    --accent1-color: #7fdb24;
+    --accent2-color: #e59b11;
+  
+    --heading-font: sans-serif, serif;
+    --paragraph-font: monospace, serif;
+  
+    --nav-background-color: #d8216a;
+    --nav-link-color: #0a1302;
+    --nav-hover-link-color: #467f0d;
+    --nav-hover-background-color: #306a69;
+  }
+:root {
+  --font-fallback: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
+}
+
+
+  body {
+    font-family: ''; 
+    max-width: 960 px;
+    padding: 40 px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+  
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--accent1-color); 
+    background-color: var(--nav-hover-background-color);
+  }
