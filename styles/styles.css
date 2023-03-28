@@ -11,7 +11,9 @@
 nav, nav a, h1, p, aside, footer, ul {
   font-family: var(--paragraph-font);
 }
-
+nav a{
+  text-decoration: none;
+}
 header, .grid, footer {max-width: 840px;
 margin: 0 auto;
 }
@@ -28,6 +30,7 @@ main {
 
 aside {
   width: 20rem;
+  
   position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
