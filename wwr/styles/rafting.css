@@ -12,22 +12,26 @@
     --nav-link-color: #f6f5f1;
     --nav-hover-link-color: #0d0d7f;
     --nav-hover-background-color: #306a69;
-  
-  }
+}
 
-
-  body {
+body {
     font-family: VAR(--paragraph-font); 
     max-width: 960 px;
     padding: 40 px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
-
+.hero img{
+  width: 100%;
+}
+.experience img{
+  width: 50%;
+}
   header {
+
     padding: 20px;
     background-color: var(--accent1-color);
   }
@@ -40,6 +44,12 @@
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+  }
+  
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   nav a {
