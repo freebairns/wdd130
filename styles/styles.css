@@ -28,14 +28,6 @@ main {
   margin: 1rem;
 }
 
-aside {
-  width: 20rem;
-  
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
 h1, ul, p, nav, nav a, footer {max-width: 840px;
 margin: 0 auto;
 }
@@ -76,21 +68,28 @@ main img {
 
 
 #Hello  {
-  border-top: 2px solid steelblue;
+border-top: 2px solid steelblue;
 margin: 1em;
 padding: 10px;
 }
 
 
-
 aside {
-  
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
   padding: 1em;
   background-color: #bcc0b9;
   color: #21112e;
   text-align: center;
+}
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left:125px;
 }
 
 aside img {
