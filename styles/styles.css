@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root
 {--heading-font: sans-serif, serif;
 --paragraph-font: monospace, serif;}
@@ -52,6 +51,8 @@ nav a {
 
 h1 {
 color: steelblue;
+padding-bottom: 20px;
+border-bottom: steelblue 2px solid;
 }
 
 main img {
@@ -68,7 +69,6 @@ main img {
 
 
 #Hello  {
-border-top: 2px solid steelblue;
 margin: 1em;
 padding: 10px;
 }
