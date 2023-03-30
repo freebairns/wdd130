@@ -50,10 +50,14 @@ label {
   padding-right: 1rem;
 }
 input, select, textarea {
-  padding: 0.5rem;
+  padding: 10px 0;
   font-size: 1.1rem;
 }
+.input{
+  text-align: center;
+}
 input[type="checkbox"] {
+  text-align: center;
   width: 22px;
   height: 22px;
   vertical-align: bottom;
