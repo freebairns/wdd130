@@ -10,9 +10,11 @@
 nav, nav a, h1, p, aside, footer, ul {
   font-family: var(--paragraph-font);
 }
+
 nav a{
   text-decoration: none;
 }
+
 header, .grid, footer {max-width: 840px;
 margin: 0 auto;
 }
@@ -73,7 +75,6 @@ margin: 1em;
 padding: 10px;
 }
 
-
 aside {
   width: 20rem;
   position: relative;
@@ -86,6 +87,7 @@ aside {
   color: #21112e;
   text-align: center;
 }
+
 aside h2 {
   position: absolute;
   top: 10px;
