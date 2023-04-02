@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root {
     --primary-color: #070743;
     --secondary-color: #d1e518;
@@ -76,12 +76,28 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 1fr 1fr ;
 
 }
-h1 purpose{
+.purpose{
+  color: gainsboro;
+  text-align: center;
+  background-image: url("../images/purpose.jpg");
+  background-size: cover;
 
+}
+.why {
+  color: gainsboro;
+  text-align: center;
+
+}
+.summer{
+  color: gainsboro;
+  text-align: center;
 
 }
 .earlybird{
-  background-image: url(images/earlybird.jpg);
+  color: gainsboro;
+  text-align: center;
+  background-image: url("../images/earlybird1.jpg");
+  background-size: cover;
 }
 .history-picture{
   text-align: center;
