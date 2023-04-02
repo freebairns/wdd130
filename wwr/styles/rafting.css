@@ -5,13 +5,13 @@
     --accent1-color: #d3d5d1eb;
     --accent2-color: #e59b11;
   
-    --heading-font: sans-serif, serif;
+    --heading-font: formal;
     --paragraph-font: monospace, serif;
   
     --nav-background-color: #0627acf5;
     --nav-link-color: #f6f5f1;
     --nav-hover-link-color: #0d0d7f;
-    --nav-hover-background-color: #306a69;
+    --nav-hover-background-color: #30d125;
 }
 body {
     font-family: VAR(--paragraph-font); 
@@ -25,6 +25,10 @@ body {
   color: white;
   text-align: center;
   margin: 30px;
+}
+.purpose{
+  display: grid;
+  
 }
 
 nav {
@@ -43,7 +47,7 @@ header img{
   width: 100px;
 }
 .histo_ry {
-  color: gray;
+  color: rgb(49, 100, 128);
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -64,8 +68,20 @@ h1, h2, h3, h4, h5, h6 {
   
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: antiquewhite;
+  background-color: rgb(183, 173, 160);
   padding: 50px;
+}
+.indexaction{
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
+h1 purpose{
+
+
+}
+.earlybird{
+  background-image: url(images/earlybird.jpg);
 }
 .history-picture{
   text-align: center;
@@ -164,3 +180,86 @@ h1, h2, h3, h4, h5, h6 {
     border-radius:10px;
     margin: 15px 0;
   }
+
+  @import url('http://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: Merriweather, Georgia, serif;
+        font-size: 1.2em;
+        color: #333;
+        background: #fff;
+      }
+     form header {
+        margin: 0 auto;
+        width: 650px;
+      }      
+      legend{
+        text-align: center;
+      }
+      form {
+        width: 650px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        background-color: #eee;
+        display: grid;
+      }
+      fieldset {
+        display: grid;
+        grid-gap: .5rem;
+        margin: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+      }
+      input {
+        display: block;
+        height: 30px;
+        width: 100%;
+        margin: 15px 0;
+      } 
+      textarea{
+        display: block;
+        height: 150px;
+        width: 100%;
+        margin: 15px 0;
+
+      }
+      select {
+        display:block;
+        width:100%;
+        height: 30px;
+        margin: 15px 0;
+
+      }
+
+      .radio {
+        display: flex;
+      }
+      
+      label, input, button, select, textarea {
+        font-family: Roboto, Arial, sans-serif;
+      }
+      label {
+        text-align: center;
+        padding-right: 1rem;
+      }
+      button {
+        margin: 1rem;
+        background-color: navy;
+        color: #fff;
+        border: none;
+        border-radius: .5rem;
+        padding: .75rem;
+        font-size: 1.2rem;
+      }
+      input checkbox {
+    
+      }
+      button:hover {
+        background-color: darkgreen;
+      }
