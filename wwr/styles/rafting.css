@@ -13,6 +13,11 @@
     --nav-hover-link-color: #0d0d7f;
     --nav-hover-background-color: #30d125;
 }
+.earlybird {
+  padding: 25px;
+
+}
+
 body {
     font-family: VAR(--paragraph-font); 
     max-width: 960px;
@@ -21,11 +26,16 @@ body {
     margin: 0 auto;
   }
 
-.WWR {
+.WWR{
   color: white;
   text-align: center;
   margin: 30px;
 }
+.fontcolor {
+  color: white;
+  background-color: #0d0d7f;
+}
+
 .purpose{
   display: grid;
 }
@@ -88,15 +98,31 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 
 }
+.staffsfigures {
+text-align: center;
+background-color: #b7adadf2;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10 px 18px #888888;
+}
+.contactinfo{
+  margin-top: 1em;
+  padding-right: 1em;
+}
+.side-to-map{
+  margin-top: 1em;
+  
+
+}
 .summer{
   color: gainsboro;
   text-align: center;
 
 }
 .earlybird{
-  color: gainsboro;
+  color: rgb(7, 7, 7);
   text-align: center;
-  background-image: url("../images/earlybird1.jpg");
+  background-color:#c28513ee;
   background-size: cover;
 }
 .history-picture{
@@ -155,16 +181,34 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent1-color); 
     background-color: var(--nav-hover-background-color);
   }
-  
+  .home-overview{
+    margin-top: 2em;
+  }
+  .article{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  ul{
+    list-style-type: none;
+  }
   footer {
     margin-top: 1em;
     border-top: 1px solid #1a1111;
     text-align: center;
   }
+  .title{
+    color:whitesmoke;
+    text-align: center;
+  }
   .sociallinks {
+    margin-top: 2em;
     display: flex;
-    justify-content: end;
-
+    justify-content: center;
+    
+  }
+  .side-to-map
+  {
+    display:flex;
   }
   .staffsname{
     display: flex;
@@ -195,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px 0;
   }
 
-  @import url('http://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+ /* @import url('http://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');*/
 * {
     margin: 0;
     padding: 0;
@@ -252,8 +296,17 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       .radio {
-        display: flex;
+        display:flex;
+        align-items: center;
+
       }
+      .contactcheckbox {
+        display:flex;
+        gap:0;
+        align-items: left;
+        justify-content: flex-start;
+      }
+
       
       label, input, button, select, textarea {
         font-family: Roboto, Arial, sans-serif;
@@ -271,9 +324,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: .75rem;
         font-size: 1.2rem;
       }
-      input checkbox {
-    
-      }
+  
       button:hover {
         background-color: darkgreen;
       }
