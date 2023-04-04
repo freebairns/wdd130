@@ -17,7 +17,10 @@
   padding: 25px;
 
 }
-
+.right{
+  float:right;
+  margin: 15px;
+}
 body {
     font-family: VAR(--paragraph-font); 
     max-width: 960px;
@@ -31,6 +34,7 @@ body {
   text-align: center;
   margin: 30px;
 }
+
 
 
 
@@ -71,19 +75,19 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   }
 .hero {
-  background-image: url("../images/LargeBannerWWR.jpg");
+  background-image: url("../images/herobackground.jpg");
   background-size: cover;
   height: 500px;
   padding: 120px 0;
 }
 
-.history {
+/*.history {
   
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: rgb(183, 173, 160);
   padding: 50px;
-}
+}*/
 .indexaction{
   display:grid;
   grid-template-columns: 1fr 1fr ;
