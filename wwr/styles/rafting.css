@@ -510,10 +510,6 @@ div.experience img.x2 { position: absolute; top: 70px;left: px;
   font-size: 15px; 
 
 }
-.deal{
-grid-column: 3/4;
-grid-row: 3/5;
-}
 .ab{
   grid-column: 3/5 ;
   grid-row:3/3 ;
