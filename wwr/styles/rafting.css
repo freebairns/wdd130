@@ -160,17 +160,9 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 1fr 1fr ;
 
 }
-.j{
-  
-  width: 10px;
-  height: auto;
-  border: 1px;
-  padding: 2px;
-  margin-top: 15x;
-  box-shadow: 0 0 30px gray;
-  float: right;
 
-}
+
+
 .purpose{
   
   color: rgb(7, 6, 6);
@@ -366,7 +358,7 @@ div.experience img.x2 { position: absolute; top: 70px;left: px;
       height: auto;
       border: 1px;
       padding: 2px;
-      margin-top: px;
+      margin-top: 1px;
       box-shadow: 0 0 30px gray;
       
     display: flex;
